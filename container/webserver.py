@@ -1,6 +1,6 @@
 # hello-docker
 #
-# Version: 0.2.2 (2021-01-16)
+# Version: 0.2.3 (2021-02-21)
 # License: GNU General Public License v2.0
 # Author: Stefan Junger
 
@@ -13,7 +13,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-type", "text/html")
         self.end_headers()
-        self.wfile.write(bytes("<html><head><title>Testserver</title></head>", "utf-8"))
+        self.wfile.write(bytes("<html><head><title>Hello, Docker!</title></head>", "utf-8"))
         self.wfile.write(bytes("<body>", "utf-8"))
         self.wfile.write(bytes("<center>", "utf-8"))
         self.wfile.write(bytes("<font face=\"arial,helvetica\">", "utf-8"))

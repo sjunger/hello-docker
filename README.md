@@ -2,7 +2,9 @@
 
 A little Docker demo for a webserver written in Python3.
 
-docker build -t hello-docker:latest -t hello-docker:0.2.2 .
+docker build -t hello-docker:latest -t hello-docker:0.2.3 .
+
+http://localhost:8100/
 
 ![screenshot](.images/screenshot.png)
 
