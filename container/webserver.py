@@ -1,7 +1,7 @@
 # hello-docker
 #
 # Version: 0.2.3 (2021-02-21)
-# License: GNU General Public License v2.0
+# License: GNU General Public License v3.0
 # Author: Stefan Junger
 
 import http.server
